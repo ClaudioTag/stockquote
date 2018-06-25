@@ -210,7 +210,7 @@ public class StockQuote extends Application {
 		JsonObjectBuilder builder = Json.createObjectBuilder();
 		builder.add("symbol", symbol);
 		builder.add("date", today);
-		builder.add("price", price);
+		builder.add("price for Tag", price);
 
 		return builder.build();
 	}
